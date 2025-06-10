@@ -1,0 +1,16 @@
+export enum RouterNames {
+  Home = "home",
+  AddQuoteSelection = "add quote selection",
+  DeliveryQuote = "ho quote",
+  SupplyDeliveryQuote = "sd quote",
+  SavedQuotes = "SavedQuotes",
+  PastQuotes = "PastQuotes",
+  EditDepots = "EditDepots",
+  EditDepotPricing = "EditDepotPricing",
+  EditMaterials = "EditMaterials",
+  EditCustomers = "EditCustomers",
+  Login = "Login",
+  Test = "test",
+  FatalError = "error",
+  NotFound = "NotFound",
+}

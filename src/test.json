@@ -1,0 +1,43 @@
+{
+  "$dirty": false,
+  "$path": "comments",
+  "required": {
+    "$message": "Value is required",
+    "$params": {
+      "type": "required"
+    },
+    "$pending": false,
+    "$invalid": true,
+    "$response": false
+  },
+  "email": {
+    "$message": "Value is not a valid email address",
+    "$params": {
+      "type": "email"
+    },
+    "$pending": false,
+    "$invalid": false,
+    "$response": true
+  },
+  "$externalResults": [],
+  "$invalid": true,
+  "$pending": false,
+  "$error": false,
+  "$silentErrors": [
+    {
+      "$propertyPath": "comments",
+      "$property": "comments",
+      "$validator": "required",
+      "$uid": "comments-required",
+      "$message": "Value is required",
+      "$params": {
+        "type": "required"
+      },
+      "$response": false,
+      "$pending": false
+    }
+  ],
+  "$errors": [],
+  "$model": null,
+  "$anyDirty": false
+}
